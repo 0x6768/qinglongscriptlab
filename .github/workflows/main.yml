@@ -9,14 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4   # 检出代码
-
-      - name: Set up Python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.10'     # 指定 Python 版本（如 3.10）
-
       - name: Install dependencies
         run: pip install requests   # 安装 requests 库
 
       - name: Run re123.py
-        run: python3 re123.py        # 执行脚本
+        run: python re123.py        # 执行脚本
