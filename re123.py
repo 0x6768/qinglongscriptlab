@@ -5,7 +5,7 @@ import time
 
 # ============ 配置项 ============
 REGISTER_URL = "https://dev.voce.chat/api/user/register"
-REGISTER_COUNT = 100000               # 注册用户数量
+REGISTER_COUNT = 1000               # 注册用户数量
 DELAY_SECONDS = 0              # 注册间隔（秒）
 COMMON_EMAIL_DOMAINS = [
     "gmail.com", "yahoo.com", "outlook.com", "qq.com", "163.com", "hotmail.com"
