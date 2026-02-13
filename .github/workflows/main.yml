@@ -1,7 +1,5 @@
 name: Run re123 Daily
 on:
-  schedule:
-    - cron: '0 16 * * *'  # 北京时间 00:00（UTC 16:00）
   workflow_dispatch:       # 可选：允许手动触发
 
 jobs:
